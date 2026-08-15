@@ -1,0 +1,203 @@
+[
+  {
+    "id": "python",
+    "label": "Python",
+    "aliases": [
+      "Python programming"
+    ]
+  },
+  {
+    "id": "git",
+    "label": "Git",
+    "aliases": [
+      "version control",
+      "GitHub"
+    ]
+  },
+  {
+    "id": "linux",
+    "label": "Linux",
+    "aliases": [
+      "Linux administration",
+      "Unix"
+    ]
+  },
+  {
+    "id": "docker",
+    "label": "Docker",
+    "aliases": [
+      "containers",
+      "containerization"
+    ]
+  },
+  {
+    "id": "kubernetes",
+    "label": "Kubernetes",
+    "aliases": [
+      "container orchestration",
+      "K8s"
+    ]
+  },
+  {
+    "id": "ci_cd",
+    "label": "CI/CD",
+    "aliases": [
+      "continuous integration",
+      "GitHub Actions",
+      "continuous delivery"
+    ]
+  },
+  {
+    "id": "cloud_platforms",
+    "label": "Cloud platforms",
+    "aliases": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "GCP"
+    ]
+  },
+  {
+    "id": "infrastructure_as_code",
+    "label": "Infrastructure as code",
+    "aliases": [
+      "Terraform",
+      "Ansible",
+      "IaC"
+    ]
+  },
+  {
+    "id": "monitoring",
+    "label": "Monitoring and observability",
+    "aliases": [
+      "Prometheus",
+      "Grafana",
+      "observability"
+    ]
+  },
+  {
+    "id": "networking",
+    "label": "Computer networking",
+    "aliases": [
+      "TCP/IP",
+      "DNS",
+      "network administration"
+    ]
+  },
+  {
+    "id": "scripting",
+    "label": "Automation scripting",
+    "aliases": [
+      "Bash",
+      "PowerShell",
+      "shell scripting"
+    ]
+  },
+  {
+    "id": "security",
+    "label": "Security practices",
+    "aliases": [
+      "secure coding",
+      "information security"
+    ]
+  },
+  {
+    "id": "api_design",
+    "label": "API design",
+    "aliases": [
+      "REST API",
+      "RESTful APIs",
+      "FastAPI"
+    ]
+  },
+  {
+    "id": "sql",
+    "label": "SQL",
+    "aliases": [
+      "PostgreSQL",
+      "MySQL",
+      "relational databases"
+    ]
+  },
+  {
+    "id": "testing",
+    "label": "Software testing",
+    "aliases": [
+      "unit testing",
+      "pytest",
+      "integration testing"
+    ]
+  },
+  {
+    "id": "statistics",
+    "label": "Statistics",
+    "aliases": [
+      "statistical analysis"
+    ]
+  },
+  {
+    "id": "data_visualization",
+    "label": "Data visualization",
+    "aliases": [
+      "Power BI",
+      "Tableau",
+      "Matplotlib"
+    ]
+  },
+  {
+    "id": "spreadsheets",
+    "label": "Spreadsheets",
+    "aliases": [
+      "Excel",
+      "Google Sheets"
+    ]
+  },
+  {
+    "id": "communication",
+    "label": "Communication",
+    "aliases": [
+      "technical communication",
+      "presentation skills"
+    ]
+  },
+  {
+    "id": "network_security",
+    "label": "Network security",
+    "aliases": [
+      "firewall",
+      "intrusion detection"
+    ]
+  },
+  {
+    "id": "incident_response",
+    "label": "Incident response",
+    "aliases": [
+      "security incident handling",
+      "SOC operations"
+    ]
+  },
+  {
+    "id": "risk_assessment",
+    "label": "Risk assessment",
+    "aliases": [
+      "security risk analysis",
+      "threat assessment"
+    ]
+  },
+  {
+    "id": "database_admin",
+    "label": "Database administration",
+    "aliases": [
+      "DBA",
+      "database management"
+    ]
+  },
+  {
+    "id": "backup_recovery",
+    "label": "Backup and recovery",
+    "aliases": [
+      "disaster recovery",
+      "database backup"
+    ]
+  }
+]

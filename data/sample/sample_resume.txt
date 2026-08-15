@@ -1,0 +1,8 @@
+Alex Morgan
+
+Junior Backend Developer
+
+Developed Python REST APIs with FastAPI and PostgreSQL. Used Git and GitHub
+Actions to run unit testing with pytest. Containerized applications with Docker
+and deployed small services to AWS. Comfortable communicating technical ideas
+to teammates and writing project documentation.

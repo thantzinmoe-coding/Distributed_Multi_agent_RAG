@@ -1,0 +1,22 @@
+[
+  {
+    "id": "devops_engineer",
+    "title": "DevOps Engineer"
+  },
+  {
+    "id": "backend_developer",
+    "title": "Backend Developer"
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst"
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst"
+  },
+  {
+    "id": "database_administrator",
+    "title": "Database Administrator"
+  }
+]

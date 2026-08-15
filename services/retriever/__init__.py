@@ -1,0 +1,1 @@
+"""Generic retrieval-node service."""

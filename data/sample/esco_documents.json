@@ -1,0 +1,856 @@
+[
+  {
+    "evidence_id": "esco:sample:occupation:devops_engineer",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer",
+    "text": "Builds automated delivery systems and maintains reliable development and production environments. This is synthetic demonstration data, not an official occupation profile.",
+    "document_type": "occupation",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:linux",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Linux",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Linux is a essential skill for DevOps Engineer with normalized importance 0.86.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "linux",
+      "skill_label": "Linux",
+      "importance": 0.86,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:docker",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Docker",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Docker is a essential skill for DevOps Engineer with normalized importance 0.84.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "docker",
+      "skill_label": "Docker",
+      "importance": 0.84,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:ci_cd",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — CI/CD",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, CI/CD is a essential skill for DevOps Engineer with normalized importance 0.88.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "ci_cd",
+      "skill_label": "CI/CD",
+      "importance": 0.88,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:cloud_platforms",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Cloud platforms",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Cloud platforms is a essential skill for DevOps Engineer with normalized importance 0.78.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "cloud_platforms",
+      "skill_label": "Cloud platforms",
+      "importance": 0.78,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:infrastructure_as_code",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Infrastructure as code",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Infrastructure as code is a essential skill for DevOps Engineer with normalized importance 0.82.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "infrastructure_as_code",
+      "skill_label": "Infrastructure as code",
+      "importance": 0.82,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:kubernetes",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Kubernetes",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Kubernetes is a essential skill for DevOps Engineer with normalized importance 0.84.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "kubernetes",
+      "skill_label": "Kubernetes",
+      "importance": 0.84,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:monitoring",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Monitoring and observability",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Monitoring and observability is a essential skill for DevOps Engineer with normalized importance 0.82.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "monitoring",
+      "skill_label": "Monitoring and observability",
+      "importance": 0.82,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:networking",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Computer networking",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Computer networking is a optional skill for DevOps Engineer with normalized importance 0.74.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "networking",
+      "skill_label": "Computer networking",
+      "importance": 0.74,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:scripting",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Automation scripting",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Automation scripting is a essential skill for DevOps Engineer with normalized importance 0.78.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "scripting",
+      "skill_label": "Automation scripting",
+      "importance": 0.78,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:security",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Security practices",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Security practices is a optional skill for DevOps Engineer with normalized importance 0.70.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "security",
+      "skill_label": "Security practices",
+      "importance": 0.7,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:devops_engineer:skill:git",
+    "source": "ESCO SAMPLE",
+    "title": "DevOps Engineer — Git",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Git is a essential skill for DevOps Engineer with normalized importance 0.80.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "devops_engineer",
+      "occupation_title": "DevOps Engineer",
+      "canonical_skill_id": "git",
+      "skill_label": "Git",
+      "importance": 0.8,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:occupation:backend_developer",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer",
+    "text": "Designs and maintains server-side applications, APIs, data access, and automated tests. This is synthetic demonstration data, not an official occupation profile.",
+    "document_type": "occupation",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:backend_developer:skill:python",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer — Python",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Python is a essential skill for Backend Developer with normalized importance 0.88.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "canonical_skill_id": "python",
+      "skill_label": "Python",
+      "importance": 0.88,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:backend_developer:skill:api_design",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer — API design",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, API design is a essential skill for Backend Developer with normalized importance 0.86.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "canonical_skill_id": "api_design",
+      "skill_label": "API design",
+      "importance": 0.86,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:backend_developer:skill:sql",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer — SQL",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, SQL is a essential skill for Backend Developer with normalized importance 0.78.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "canonical_skill_id": "sql",
+      "skill_label": "SQL",
+      "importance": 0.78,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:backend_developer:skill:git",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer — Git",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Git is a essential skill for Backend Developer with normalized importance 0.76.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "canonical_skill_id": "git",
+      "skill_label": "Git",
+      "importance": 0.76,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:backend_developer:skill:testing",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer — Software testing",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Software testing is a essential skill for Backend Developer with normalized importance 0.82.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "canonical_skill_id": "testing",
+      "skill_label": "Software testing",
+      "importance": 0.82,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:backend_developer:skill:docker",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer — Docker",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Docker is a optional skill for Backend Developer with normalized importance 0.66.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "canonical_skill_id": "docker",
+      "skill_label": "Docker",
+      "importance": 0.66,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:backend_developer:skill:security",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer — Security practices",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Security practices is a optional skill for Backend Developer with normalized importance 0.72.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "canonical_skill_id": "security",
+      "skill_label": "Security practices",
+      "importance": 0.72,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:backend_developer:skill:communication",
+    "source": "ESCO SAMPLE",
+    "title": "Backend Developer — Communication",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Communication is a optional skill for Backend Developer with normalized importance 0.59.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "backend_developer",
+      "occupation_title": "Backend Developer",
+      "canonical_skill_id": "communication",
+      "skill_label": "Communication",
+      "importance": 0.59,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:occupation:data_analyst",
+    "source": "ESCO SAMPLE",
+    "title": "Data Analyst",
+    "text": "Transforms data into reports, visualizations, and evidence that supports business decisions. This is synthetic demonstration data, not an official occupation profile.",
+    "document_type": "occupation",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "data_analyst",
+      "occupation_title": "Data Analyst",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:data_analyst:skill:sql",
+    "source": "ESCO SAMPLE",
+    "title": "Data Analyst — SQL",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, SQL is a essential skill for Data Analyst with normalized importance 0.88.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "data_analyst",
+      "occupation_title": "Data Analyst",
+      "canonical_skill_id": "sql",
+      "skill_label": "SQL",
+      "importance": 0.88,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:data_analyst:skill:spreadsheets",
+    "source": "ESCO SAMPLE",
+    "title": "Data Analyst — Spreadsheets",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Spreadsheets is a essential skill for Data Analyst with normalized importance 0.78.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "data_analyst",
+      "occupation_title": "Data Analyst",
+      "canonical_skill_id": "spreadsheets",
+      "skill_label": "Spreadsheets",
+      "importance": 0.78,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:data_analyst:skill:statistics",
+    "source": "ESCO SAMPLE",
+    "title": "Data Analyst — Statistics",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Statistics is a essential skill for Data Analyst with normalized importance 0.80.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "data_analyst",
+      "occupation_title": "Data Analyst",
+      "canonical_skill_id": "statistics",
+      "skill_label": "Statistics",
+      "importance": 0.8,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:data_analyst:skill:data_visualization",
+    "source": "ESCO SAMPLE",
+    "title": "Data Analyst — Data visualization",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Data visualization is a essential skill for Data Analyst with normalized importance 0.86.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "data_analyst",
+      "occupation_title": "Data Analyst",
+      "canonical_skill_id": "data_visualization",
+      "skill_label": "Data visualization",
+      "importance": 0.86,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:data_analyst:skill:python",
+    "source": "ESCO SAMPLE",
+    "title": "Data Analyst — Python",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Python is a optional skill for Data Analyst with normalized importance 0.74.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "data_analyst",
+      "occupation_title": "Data Analyst",
+      "canonical_skill_id": "python",
+      "skill_label": "Python",
+      "importance": 0.74,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:data_analyst:skill:communication",
+    "source": "ESCO SAMPLE",
+    "title": "Data Analyst — Communication",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Communication is a essential skill for Data Analyst with normalized importance 0.78.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "data_analyst",
+      "occupation_title": "Data Analyst",
+      "canonical_skill_id": "communication",
+      "skill_label": "Communication",
+      "importance": 0.78,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:occupation:cybersecurity_analyst",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst",
+    "text": "Monitors threats, investigates incidents, and helps protect systems and networks. This is synthetic demonstration data, not an official occupation profile.",
+    "document_type": "occupation",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:cybersecurity_analyst:skill:network_security",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst — Network security",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Network security is a essential skill for Cybersecurity Analyst with normalized importance 0.90.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "canonical_skill_id": "network_security",
+      "skill_label": "Network security",
+      "importance": 0.9,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:cybersecurity_analyst:skill:incident_response",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst — Incident response",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Incident response is a essential skill for Cybersecurity Analyst with normalized importance 0.86.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "canonical_skill_id": "incident_response",
+      "skill_label": "Incident response",
+      "importance": 0.86,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:cybersecurity_analyst:skill:linux",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst — Linux",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Linux is a essential skill for Cybersecurity Analyst with normalized importance 0.76.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "canonical_skill_id": "linux",
+      "skill_label": "Linux",
+      "importance": 0.76,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:cybersecurity_analyst:skill:scripting",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst — Automation scripting",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Automation scripting is a optional skill for Cybersecurity Analyst with normalized importance 0.70.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "canonical_skill_id": "scripting",
+      "skill_label": "Automation scripting",
+      "importance": 0.7,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:cybersecurity_analyst:skill:risk_assessment",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst — Risk assessment",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Risk assessment is a essential skill for Cybersecurity Analyst with normalized importance 0.82.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "canonical_skill_id": "risk_assessment",
+      "skill_label": "Risk assessment",
+      "importance": 0.82,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:cybersecurity_analyst:skill:security",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst — Security practices",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Security practices is a essential skill for Cybersecurity Analyst with normalized importance 0.90.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "canonical_skill_id": "security",
+      "skill_label": "Security practices",
+      "importance": 0.9,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:cybersecurity_analyst:skill:communication",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst — Communication",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Communication is a optional skill for Cybersecurity Analyst with normalized importance 0.66.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "canonical_skill_id": "communication",
+      "skill_label": "Communication",
+      "importance": 0.66,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:cybersecurity_analyst:skill:networking",
+    "source": "ESCO SAMPLE",
+    "title": "Cybersecurity Analyst — Computer networking",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Computer networking is a essential skill for Cybersecurity Analyst with normalized importance 0.78.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "cybersecurity_analyst",
+      "occupation_title": "Cybersecurity Analyst",
+      "canonical_skill_id": "networking",
+      "skill_label": "Computer networking",
+      "importance": 0.78,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:occupation:database_administrator",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator",
+    "text": "Operates database platforms, protects data, monitors performance, and plans recovery. This is synthetic demonstration data, not an official occupation profile.",
+    "document_type": "occupation",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:database_administrator:skill:sql",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator — SQL",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, SQL is a essential skill for Database Administrator with normalized importance 0.90.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "canonical_skill_id": "sql",
+      "skill_label": "SQL",
+      "importance": 0.9,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:database_administrator:skill:database_admin",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator — Database administration",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Database administration is a essential skill for Database Administrator with normalized importance 0.92.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "canonical_skill_id": "database_admin",
+      "skill_label": "Database administration",
+      "importance": 0.92,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:database_administrator:skill:backup_recovery",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator — Backup and recovery",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Backup and recovery is a essential skill for Database Administrator with normalized importance 0.86.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "canonical_skill_id": "backup_recovery",
+      "skill_label": "Backup and recovery",
+      "importance": 0.86,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:database_administrator:skill:monitoring",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator — Monitoring and observability",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Monitoring and observability is a essential skill for Database Administrator with normalized importance 0.80.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "canonical_skill_id": "monitoring",
+      "skill_label": "Monitoring and observability",
+      "importance": 0.8,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:database_administrator:skill:linux",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator — Linux",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Linux is a optional skill for Database Administrator with normalized importance 0.68.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "canonical_skill_id": "linux",
+      "skill_label": "Linux",
+      "importance": 0.68,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:database_administrator:skill:security",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator — Security practices",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Security practices is a essential skill for Database Administrator with normalized importance 0.82.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "canonical_skill_id": "security",
+      "skill_label": "Security practices",
+      "importance": 0.82,
+      "requirement": "essential",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:database_administrator:skill:scripting",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator — Automation scripting",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Automation scripting is a optional skill for Database Administrator with normalized importance 0.62.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "canonical_skill_id": "scripting",
+      "skill_label": "Automation scripting",
+      "importance": 0.62,
+      "requirement": "optional",
+      "sample": true
+    }
+  },
+  {
+    "evidence_id": "esco:sample:database_administrator:skill:communication",
+    "source": "ESCO SAMPLE",
+    "title": "Database Administrator — Communication",
+    "text": "In the SkillMesh synthetic ESCO SAMPLE profile, Communication is a optional skill for Database Administrator with normalized importance 0.56.",
+    "document_type": "skill_requirement",
+    "source_url": "https://esco.ec.europa.eu/en/use-esco",
+    "source_version": "skillmesh-sample-1",
+    "license": "See official ESCO reuse notice",
+    "metadata": {
+      "canonical_occupation_id": "database_administrator",
+      "occupation_title": "Database Administrator",
+      "canonical_skill_id": "communication",
+      "skill_label": "Communication",
+      "importance": 0.56,
+      "requirement": "optional",
+      "sample": true
+    }
+  }
+]

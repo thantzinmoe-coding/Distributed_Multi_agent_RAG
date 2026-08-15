@@ -1,0 +1,306 @@
+[
+  {
+    "evidence_id": "course:sample:C001",
+    "source": "SkillMesh Course Catalog",
+    "title": "Linux Administration Essentials",
+    "text": "A beginner learning resource covering Linux. Estimated study time: 10 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C001",
+      "skill_ids": [
+        "linux"
+      ],
+      "level": "beginner",
+      "duration_hours": 10,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C002",
+    "source": "SkillMesh Course Catalog",
+    "title": "Docker Fundamentals",
+    "text": "A beginner learning resource covering Docker. Estimated study time: 8 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C002",
+      "skill_ids": [
+        "docker"
+      ],
+      "level": "beginner",
+      "duration_hours": 8,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C003",
+    "source": "SkillMesh Course Catalog",
+    "title": "CI/CD with GitHub Actions",
+    "text": "A beginner learning resource covering CI/CD. Estimated study time: 8 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C003",
+      "skill_ids": [
+        "ci_cd"
+      ],
+      "level": "beginner",
+      "duration_hours": 8,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C004",
+    "source": "SkillMesh Course Catalog",
+    "title": "Terraform and Infrastructure as Code",
+    "text": "A intermediate learning resource covering Infrastructure as code. Estimated study time: 12 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C004",
+      "skill_ids": [
+        "infrastructure_as_code"
+      ],
+      "level": "intermediate",
+      "duration_hours": 12,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C005",
+    "source": "SkillMesh Course Catalog",
+    "title": "Kubernetes Fundamentals",
+    "text": "A intermediate learning resource covering Kubernetes. Estimated study time: 14 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C005",
+      "skill_ids": [
+        "kubernetes"
+      ],
+      "level": "intermediate",
+      "duration_hours": 14,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C006",
+    "source": "SkillMesh Course Catalog",
+    "title": "Monitoring with Prometheus and Grafana",
+    "text": "A intermediate learning resource covering Monitoring and observability. Estimated study time: 10 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C006",
+      "skill_ids": [
+        "monitoring"
+      ],
+      "level": "intermediate",
+      "duration_hours": 10,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C007",
+    "source": "SkillMesh Course Catalog",
+    "title": "Cloud Platform Foundations",
+    "text": "A beginner learning resource covering Cloud platforms. Estimated study time: 14 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C007",
+      "skill_ids": [
+        "cloud_platforms"
+      ],
+      "level": "beginner",
+      "duration_hours": 14,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C008",
+    "source": "SkillMesh Course Catalog",
+    "title": "Practical Computer Networking",
+    "text": "A beginner learning resource covering Computer networking. Estimated study time: 12 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C008",
+      "skill_ids": [
+        "networking"
+      ],
+      "level": "beginner",
+      "duration_hours": 12,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C009",
+    "source": "SkillMesh Course Catalog",
+    "title": "Secure Software Practices",
+    "text": "A beginner learning resource covering Security practices. Estimated study time: 8 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C009",
+      "skill_ids": [
+        "security"
+      ],
+      "level": "beginner",
+      "duration_hours": 8,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C010",
+    "source": "SkillMesh Course Catalog",
+    "title": "REST API Design with Python",
+    "text": "A intermediate learning resource covering API design. Estimated study time: 10 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C010",
+      "skill_ids": [
+        "api_design"
+      ],
+      "level": "intermediate",
+      "duration_hours": 10,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C011",
+    "source": "SkillMesh Course Catalog",
+    "title": "SQL and Relational Data",
+    "text": "A beginner learning resource covering SQL. Estimated study time: 12 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C011",
+      "skill_ids": [
+        "sql"
+      ],
+      "level": "beginner",
+      "duration_hours": 12,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C012",
+    "source": "SkillMesh Course Catalog",
+    "title": "Automated Testing with pytest",
+    "text": "A beginner learning resource covering Software testing. Estimated study time: 7 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C012",
+      "skill_ids": [
+        "testing"
+      ],
+      "level": "beginner",
+      "duration_hours": 7,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C013",
+    "source": "SkillMesh Course Catalog",
+    "title": "Applied Statistics",
+    "text": "A beginner learning resource covering Statistics. Estimated study time: 15 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C013",
+      "skill_ids": [
+        "statistics"
+      ],
+      "level": "beginner",
+      "duration_hours": 15,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C014",
+    "source": "SkillMesh Course Catalog",
+    "title": "Data Visualization Fundamentals",
+    "text": "A beginner learning resource covering Data visualization. Estimated study time: 9 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C014",
+      "skill_ids": [
+        "data_visualization"
+      ],
+      "level": "beginner",
+      "duration_hours": 9,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C015",
+    "source": "SkillMesh Course Catalog",
+    "title": "Security Incident Response",
+    "text": "A intermediate learning resource covering Incident response. Estimated study time: 14 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C015",
+      "skill_ids": [
+        "incident_response"
+      ],
+      "level": "intermediate",
+      "duration_hours": 14,
+      "provider": "SkillMesh Demo"
+    }
+  },
+  {
+    "evidence_id": "course:sample:C016",
+    "source": "SkillMesh Course Catalog",
+    "title": "Database Backup and Recovery",
+    "text": "A intermediate learning resource covering Backup and recovery. Estimated study time: 12 hours.",
+    "document_type": "course",
+    "source_url": "https://example.invalid/skillmesh-course-catalog",
+    "source_version": "sample-1",
+    "license": "Synthetic demo data",
+    "metadata": {
+      "course_id": "C016",
+      "skill_ids": [
+        "backup_recovery"
+      ],
+      "level": "intermediate",
+      "duration_hours": 12,
+      "provider": "SkillMesh Demo"
+    }
+  }
+]

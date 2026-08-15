@@ -1,0 +1,6 @@
+{
+  "dataset": "onet-sample",
+  "version": "skillmesh-sample-1",
+  "synthetic": true,
+  "warning": "Replace this corpus with a pinned official export before research evaluation."
+}

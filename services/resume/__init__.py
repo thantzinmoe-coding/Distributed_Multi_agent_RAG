@@ -1,0 +1,1 @@
+"""Private résumé parsing service."""

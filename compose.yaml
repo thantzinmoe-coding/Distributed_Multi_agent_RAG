@@ -1,0 +1,102 @@
+name: skillmesh
+
+x-api-service: &api-service
+  build:
+    context: .
+  restart: unless-stopped
+  healthcheck:
+    test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+    interval: 10s
+    timeout: 3s
+    retries: 5
+  networks: [skillmesh]
+
+services:
+  onet-service:
+    <<: *api-service
+    command: ["uvicorn", "services.retriever.app:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      NODE_NAME: onet-service
+      DATA_PATH: /app/data/sample/onet_documents.json
+      MANIFEST_PATH: /app/data/manifests/onet.json
+
+  esco-service:
+    <<: *api-service
+    command: ["uvicorn", "services.retriever.app:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      NODE_NAME: esco-service
+      DATA_PATH: /app/data/sample/esco_documents.json
+      MANIFEST_PATH: /app/data/manifests/esco.json
+
+  course-service:
+    <<: *api-service
+    command: ["uvicorn", "services.retriever.app:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      NODE_NAME: course-service
+      DATA_PATH: /app/data/sample/course_documents.json
+      MANIFEST_PATH: /app/data/manifests/courses.json
+
+  resume-service:
+    <<: *api-service
+    command: ["uvicorn", "services.resume.app:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      SKILL_CATALOG_PATH: /app/data/sample/canonical_skills.json
+      RESUME_TTL_MINUTES: ${RESUME_TTL_MINUTES:-60}
+
+  llm-service:
+    <<: *api-service
+    command: ["uvicorn", "services.llm.app:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      USE_OLLAMA: ${USE_OLLAMA:-false}
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3:4b}
+
+  coordinator:
+    <<: *api-service
+    command: ["uvicorn", "services.coordinator.app:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      RESUME_SERVICE_URL: http://resume-service:8000
+      ONET_SERVICE_URL: http://onet-service:8000
+      ESCO_SERVICE_URL: http://esco-service:8000
+      COURSE_SERVICE_URL: http://course-service:8000
+      LLM_SERVICE_URL: http://llm-service:8000
+      SERVICE_TIMEOUT_SECONDS: ${SERVICE_TIMEOUT_SECONDS:-5}
+    depends_on:
+      onet-service: {condition: service_healthy}
+      esco-service: {condition: service_healthy}
+      course-service: {condition: service_healthy}
+      resume-service: {condition: service_healthy}
+      llm-service: {condition: service_healthy}
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: .
+    command: ["streamlit", "run", "apps/frontend/app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+    environment:
+      COORDINATOR_URL: http://coordinator:8000
+      SAMPLE_RESUME_PATH: /app/data/sample/sample_resume.txt
+    depends_on:
+      coordinator: {condition: service_healthy}
+    ports:
+      - "8501:8501"
+    networks: [skillmesh]
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["local-llm"]
+    volumes:
+      - ollama-data:/root/.ollama
+    ports:
+      - "11434:11434"
+    gpus: all
+    networks: [skillmesh]
+    restart: unless-stopped
+
+networks:
+  skillmesh:
+
+volumes:
+  ollama-data:
