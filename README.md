@@ -85,16 +85,22 @@ docker compose up --build -d
 
 This starts the complete application with deterministic grounded narration and does not download an LLM.
 
-### Local Qwen mode
+### Hybrid local LLM mode (Qwen + host Ollama)
 
 Create `.env` from `.env.example` and set:
 
 ```env
 USE_OLLAMA=true
 OLLAMA_MODEL=qwen3:4b
+OLLAMA_FALLBACK_BASE_URL=http://host.docker.internal:11434
+OLLAMA_FALLBACK_MODEL=gemma4:latest
 RESUME_TTL_MINUTES=60
 SERVICE_TIMEOUT_SECONDS=5
 ```
+
+The generation service tries `qwen3:4b` in the Compose Ollama container first. If that endpoint, model, or response fails, it tries `gemma4:latest` in Ollama running on the host. If both fail, it uses deterministic grounded narration. Change either model tag to match the exact value shown by `ollama list`.
+
+Make sure host Ollama is running before starting the stack. Docker reaches it through `host.docker.internal`; on Linux, the Compose configuration maps that name to the host gateway.
 
 For the first startup, run only these two commands:
 
