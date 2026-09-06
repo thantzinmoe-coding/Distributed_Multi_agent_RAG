@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+from dataclasses import asdict, dataclass
 from typing import Any
 
 import httpx
@@ -12,8 +13,25 @@ from packages.contracts.api import GenerateRequest, GenerateResponse
 
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://ollama:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen3:4b")
+OLLAMA_FALLBACK_BASE_URL = os.getenv("OLLAMA_FALLBACK_BASE_URL", "").strip()
+OLLAMA_FALLBACK_MODEL = os.getenv("OLLAMA_FALLBACK_MODEL", "gemma4:latest")
 USE_OLLAMA = os.getenv("USE_OLLAMA", "false").lower() in {"1", "true", "yes"}
 app = FastAPI(title="SkillMesh grounded generation service", version="0.1.0")
+
+
+@dataclass(frozen=True)
+class OllamaProvider:
+    base_url: str
+    model: str
+
+
+def configured_providers() -> list[OllamaProvider]:
+    providers = [OllamaProvider(OLLAMA_BASE_URL.rstrip("/"), OLLAMA_MODEL)]
+    if OLLAMA_FALLBACK_BASE_URL:
+        fallback = OllamaProvider(OLLAMA_FALLBACK_BASE_URL.rstrip("/"), OLLAMA_FALLBACK_MODEL)
+        if fallback not in providers:
+            providers.append(fallback)
+    return providers
 
 
 def fallback_response(request: GenerateRequest, warning: str | None = None) -> GenerateResponse:
@@ -47,7 +65,7 @@ def parse_json_text(content: str) -> dict[str, Any]:
     return json.loads(value)
 
 
-async def generate_with_ollama(request: GenerateRequest) -> GenerateResponse:
+async def generate_with_ollama(request: GenerateRequest, provider: OllamaProvider) -> GenerateResponse:
     allowed_ids = [record.evidence_id for record in request.evidence]
     system = (
         "You are SkillMesh. Use only the supplied evidence. Return JSON with keys "
@@ -57,11 +75,12 @@ async def generate_with_ollama(request: GenerateRequest) -> GenerateResponse:
     user = json.dumps({"analysis": request.model_dump(exclude={"evidence"}), "evidence": [item.model_dump() for item in request.evidence], "allowed_citation_ids": allowed_ids})
     async with httpx.AsyncClient(timeout=45.0) as client:
         response = await client.post(
-            f"{OLLAMA_BASE_URL}/api/chat",
+            f"{provider.base_url}/api/chat",
             json={
-                "model": OLLAMA_MODEL,
+                "model": provider.model,
                 "stream": False,
                 "format": "json",
+                "think": False,
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
                 "options": {"temperature": 0.1, "num_ctx": 6144},
             },
@@ -71,19 +90,30 @@ async def generate_with_ollama(request: GenerateRequest) -> GenerateResponse:
     citations = list(dict.fromkeys(parsed.get("citations", [])))
     if not citations or any(citation not in allowed_ids for citation in citations):
         raise ValueError("The local model returned missing or invalid citations")
-    return GenerateResponse(summary=parsed["summary"], citations=citations, mode=f"ollama:{OLLAMA_MODEL}", warnings=parsed.get("warnings", []))
+    return GenerateResponse(summary=parsed["summary"], citations=citations, mode=f"ollama:{provider.model}", warnings=parsed.get("warnings", []))
 
 
 @app.get("/health")
 def health() -> dict:
-    return {"status": "healthy", "node": "llm-service", "ollama_enabled": USE_OLLAMA, "model": OLLAMA_MODEL}
+    return {
+        "status": "healthy",
+        "node": "llm-service",
+        "ollama_enabled": USE_OLLAMA,
+        "providers": [asdict(provider) for provider in configured_providers()],
+    }
 
 
 @app.post("/generate", response_model=GenerateResponse)
 async def generate(request: GenerateRequest) -> GenerateResponse:
     if not USE_OLLAMA:
         return fallback_response(request, "Local model is disabled; deterministic grounded narration was used.")
-    try:
-        return await generate_with_ollama(request)
-    except Exception as error:
-        return fallback_response(request, f"Local model unavailable or invalid; fallback used: {type(error).__name__}")
+    failures: list[str] = []
+    for provider in configured_providers():
+        try:
+            response = await generate_with_ollama(request, provider)
+            if failures:
+                response.warnings.append("LLM failover used after: " + ", ".join(failures))
+            return response
+        except Exception as error:
+            failures.append(f"{provider.model} ({type(error).__name__})")
+    return fallback_response(request, "All local LLM providers failed; deterministic fallback used: " + ", ".join(failures))

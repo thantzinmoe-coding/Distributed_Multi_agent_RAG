@@ -50,6 +50,10 @@ services:
       USE_OLLAMA: ${USE_OLLAMA:-false}
       OLLAMA_BASE_URL: http://ollama:11434
       OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3:4b}
+      OLLAMA_FALLBACK_BASE_URL: ${OLLAMA_FALLBACK_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_FALLBACK_MODEL: ${OLLAMA_FALLBACK_MODEL:-gemma4:latest}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
   coordinator:
     <<: *api-service
@@ -77,6 +81,7 @@ services:
     environment:
       COORDINATOR_URL: http://coordinator:8000
       SAMPLE_RESUME_PATH: /app/data/sample/sample_resume.txt
+      STREAMLIT_THEME_PRIMARY_COLOR: "#4f46e5"
     depends_on:
       coordinator: {condition: service_healthy}
     ports:
